@@ -4,7 +4,7 @@
   "description": "Simple webpack starter kit utilizing css-loader, html-loader, and babel-loader.",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack --output ./build/app.bundle.js --mode development",
+    "dev": "webpack --output ./dev/app.bundle.js --mode development",
     "build": "webpack --output ./docs/app.bundle.js --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
