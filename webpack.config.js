@@ -31,7 +31,7 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true
+              minimize: false
             }
           }
         ]
@@ -41,7 +41,7 @@ module.exports = {
         use: [
           {
             loader: 'html-loader',
-            options: { minimize: true }
+            options: { minimize: false }
           }
         ]
       }
